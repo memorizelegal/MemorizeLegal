@@ -1,1 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Memorize — CGU / Terms of Use</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#1a1208;--bg:#ffffff;--muted:#6b6456;--border:#e8e4dc;--accent:#c77d32;--accent-light:#fdf6ee;--danger-bg:#fef2f2;--danger:#991b1b}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:15px;-webkit-font-smoothing:antialiased}
+.lang-bar{background:var(--ink);padding:10px 24px;display:flex;align-items:center;justify-content:flex-end;gap:8px;position:sticky;top:0;z-index:100}
+.lang-btn{padding:5px 14px;border-radius:99px;font-size:12px;font-weight:700;cursor:pointer;border:1px solid rgba(255,255,255,.2);background:transparent;color:rgba(255,255,255,.5);transition:all .15s;font-family:'DM Sans',sans-serif}
+.lang-btn.active{background:rgba(255,255,255,.15);color:#fff;border-color:rgba(255,255,255,.4)}
+.lang-btn:hover{color:#fff}
+.fr-content{display:block}.en-content{display:none}
+body.en .fr-content{display:none}body.en .en-content{display:block}
+.page-header{padding:48px 24px 40px;max-width:680px;margin:0 auto;border-bottom:1px solid var(--border)}
+.page-header h1{font-family:'DM Serif Display',serif;font-size:28px;font-weight:400;margin-bottom:8px;line-height:1.2}
+.page-header p{font-size:13px;color:var(--muted)}
+.container{max-width:680px;margin:0 auto;padding:40px 24px 80px}
+.section{margin-bottom:44px;padding-bottom:44px;border-bottom:1px solid var(--border)}
+.section:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.section-label{font-size:10px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px}
+h2{font-family:'DM Serif Display',serif;font-size:20px;font-weight:400;margin-bottom:14px;line-height:1.3}
+h3{font-size:12px;font-weight:700;margin:20px 0 8px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+p{color:#3d3529;margin-bottom:10px;font-size:15px}
+p:last-child{margin-bottom:0}
+ul{margin:8px 0 12px 0;padding-left:18px}
+li{color:#3d3529;font-size:15px;margin-bottom:6px;line-height:1.7}
+li::marker{color:var(--accent)}
+a{color:var(--accent);text-decoration:none;font-weight:500}
+a:hover{text-decoration:underline}
+.box{border:1px solid var(--border);border-radius:8px;padding:14px 18px;margin:16px 0;background:var(--accent-light)}
+.box p{margin:0;font-size:14px;color:#3d3529}
+.box-warn{background:var(--danger-bg);border-color:#fecaca}
+.box-warn p{color:var(--danger)}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+th{background:var(--ink);color:#fff;padding:9px 12px;text-align:left;font-size:12px;font-weight:600;letter-spacing:.3px}
+td{padding:9px 12px;border-bottom:1px solid var(--border);color:#3d3529;vertical-align:top;line-height:1.6}
+tr:last-child td{border-bottom:none}
+footer{background:var(--ink);color:rgba(255,255,255,.4);text-align:center;padding:24px;font-size:12px}
+footer a{color:rgba(255,255,255,.6)}
+@media(max-width:600px){.page-header h1{font-size:22px}h2{font-size:18px}}
+</style>
+</head>
+<body>
 
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('fr')">Français</button>
+  <button class="lang-btn" onclick="setLang('en')">English</button>
+</div>
+
+<!-- FRANÇAIS -->
+<div class="fr-content">
+  <div class="page-header">
+    <h1>Conditions Générales d'Utilisation</h1>
+    <p>Memorize · Dernière mise à jour : mai 2026</p>
+  </div>
+  <div class="container">
+    <div class="box"><p>En utilisant l'application Memorize, vous acceptez sans réserve les présentes Conditions Générales d'Utilisation. Veuillez les lire attentivement avant toute utilisation.</p></div>
+
+    <div class="section">
+      <div class="section-label">Article 1</div>
+      <h2>Objet et présentation du service</h2>
+      <p>Memorize est une application mobile de révision basée sur la répétition espacée (méthode d'Ebbinghaus). Elle permet d'apprendre et de mémoriser des contenus structurés en blocs de connaissance, organisés en modules thématiques.</p>
+      <p>L'application est éditée et exploitée par <strong>Erwan Bellec</strong> (ci-après « l'Éditeur »). Pour toute question : <strong>erwan@live-peace.com</strong></p>
+      <h3>Fonctionnalités principales</h3>
+      <ul>
+        <li>Bibliothèque de modules pédagogiques (droit, médecine, histoire, sciences, langues, économie, philosophie, informatique, littérature, musique, art, géographie)</li>
+        <li>Système de révision personnalisé par répétition espacée</li>
+        <li>Suivi de progression avec XP, niveaux et séries (streaks)</li>
+        <li>Création et soumission de modules par les créateurs agréés</li>
+        <li>Bibliothèque personnelle et organisation par catégories</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 2</div>
+      <h2>Accès au service et création de compte</h2>
+      <h3>Création de compte</h3>
+      <p>L'accès nécessite la création d'un compte avec une adresse email valide et un mot de passe. Vous garantissez l'exactitude des informations fournies et vous engagez à les maintenir à jour.</p>
+      <h3>Sécurité</h3>
+      <p>Vous êtes seul responsable de la confidentialité de vos identifiants. En cas de compromission, contactez immédiatement l'Éditeur à erwan@live-peace.com.</p>
+      <h3>Âge minimum</h3>
+      <div class="box"><p>L'utilisation de Memorize est réservée aux personnes âgées d'au moins 13 ans. Les mineurs doivent obtenir le consentement d'un parent ou tuteur légal.</p></div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 3</div>
+      <h2>Conditions d'utilisation et comportements prohibés</h2>
+      <p>Memorize est mis à disposition à des fins exclusivement personnelles, non commerciales et pédagogiques.</p>
+      <h3>Il est strictement interdit de</h3>
+      <ul>
+        <li>Reproduire, vendre ou exploiter commercialement tout ou partie du service sans autorisation écrite</li>
+        <li>Tenter de décompiler ou accéder au code source de l'application</li>
+        <li>Utiliser des robots ou outils automatisés pour accéder au service</li>
+        <li>Publier des contenus illicites, diffamatoires, violents ou discriminatoires</li>
+        <li>Usurper l'identité d'un autre utilisateur ou de l'Éditeur</li>
+        <li>Perturber le fonctionnement du service ou des serveurs</li>
+        <li>Partager des contenus protégés par des droits d'auteur sans autorisation</li>
+      </ul>
+      <div class="box box-warn"><p>⚠️ Tout manquement peut entraîner la suspension immédiate et définitive du compte.</p></div>
+      <h3>Gamification</h3>
+      <p>Le système d'XP, niveaux et streaks est purement indicatif et n'a aucune valeur monétaire. L'Éditeur se réserve le droit de modifier ces paramètres à tout moment.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 4</div>
+      <h2>Statut de créateur et publication de modules</h2>
+      <h3>Accès au statut de créateur</h3>
+      <p>Tout utilisateur peut demander le statut de créateur depuis les réglages. Cette demande est soumise à validation par les administrateurs. L'Éditeur se réserve le droit d'accepter ou refuser sans justification.</p>
+      <h3>Workflow de publication</h3>
+      <ul>
+        <li><strong>Brouillon</strong> — visible uniquement par le créateur</li>
+        <li><strong>En attente</strong> — soumis, en cours de modération</li>
+        <li><strong>Publié</strong> — validé et accessible à tous</li>
+      </ul>
+      <h3>Obligations des créateurs</h3>
+      <p>En soumettant un module, le créateur garantit que le contenu est original ou librement utilisable, exact, de qualité pédagogique, et ne viole aucun droit de propriété intellectuelle ni ne contient d'information fausse ou dangereuse.</p>
+      <p>L'Éditeur peut refuser, modifier ou dépublier tout module ne respectant pas ces CGU.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 5</div>
+      <h2>Propriété intellectuelle</h2>
+      <h3>Propriété de l'Éditeur</h3>
+      <p>L'application, son code, son interface, son design et ses algorithmes sont la propriété exclusive de l'Éditeur. Toute reproduction non autorisée est interdite.</p>
+      <h3>Contenus des créateurs</h3>
+      <p>Les créateurs conservent la propriété de leurs contenus. En publiant un module, ils accordent à l'Éditeur une licence non exclusive, mondiale et gratuite pour héberger, afficher et promouvoir ce contenu dans le cadre du service.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 6</div>
+      <h2>Limitation de responsabilité</h2>
+      <div class="box box-warn"><p>⚠️ Les modules Memorize sont des outils pédagogiques complémentaires. Ils ne remplacent pas l'avis d'un professionnel qualifié, notamment en médecine, droit ou finance.</p></div>
+      <p>L'Éditeur ne saurait être tenu responsable des interruptions de service, pertes de données, dommages indirects, ni du contenu publié par des créateurs tiers.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 7</div>
+      <h2>Données personnelles</h2>
+      <p>La collecte et le traitement de vos données sont régis par la <a href="confidentialite.html">Politique de Confidentialité</a>.</p>
+      <table>
+        <tr><th>Donnée</th><th>Finalité</th></tr>
+        <tr><td>Email</td><td>Authentification, communication</td></tr>
+        <tr><td>Nom d'affichage</td><td>Personnalisation du profil</td></tr>
+        <tr><td>Progression, XP, streaks</td><td>Calcul des révisions, statistiques</td></tr>
+        <tr><td>Notes attribuées</td><td>Amélioration des contenus</td></tr>
+        <tr><td>Préférences (langue, thème)</td><td>Personnalisation de l'expérience</td></tr>
+      </table>
+      <p>Conformément au RGPD, vous disposez d'un droit d'accès, rectification, suppression et portabilité. Contact : erwan@live-peace.com</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 8</div>
+      <h2>Résiliation</h2>
+      <h3>Par l'utilisateur</h3>
+      <p>Vous pouvez supprimer votre compte à tout moment en contactant erwan@live-peace.com. La suppression entraîne la perte définitive de toutes vos données de progression.</p>
+      <h3>Par l'Éditeur</h3>
+      <p>L'Éditeur peut suspendre ou supprimer tout compte en cas de violation des CGU, comportement frauduleux ou inactivité prolongée (plus de 24 mois).</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 9</div>
+      <h2>Modifications et droit applicable</h2>
+      <p>L'Éditeur se réserve le droit de modifier ces CGU à tout moment. Les utilisateurs seront informés par notification dans l'application. La poursuite de l'utilisation vaut acceptation.</p>
+      <p>Les présentes CGU sont soumises au <strong>droit français</strong>. En cas de litige, les tribunaux français sont seuls compétents. Médiation européenne disponible sur <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a></p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Contact</div>
+      <h2>Nous contacter</h2>
+      <ul>
+        <li><strong>Email :</strong> erwan@live-peace.com</li>
+        <li><strong>Application :</strong> Réglages → Nous contacter</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ENGLISH -->
+<div class="en-content">
+  <div class="page-header">
+    <h1>Terms of Use</h1>
+    <p>Memorize · Last updated: May 2026</p>
+  </div>
+  <div class="container">
+    <div class="box"><p>By using the Memorize app, you agree to these Terms of Use. Please read them carefully before using the service.</p></div>
+
+    <div class="section">
+      <div class="section-label">Article 1</div>
+      <h2>Purpose and service description</h2>
+      <p>Memorize is a mobile learning app based on spaced repetition (Ebbinghaus method). It helps users learn and memorize structured content organized as knowledge blocks within thematic modules.</p>
+      <p>The app is published and operated by <strong>Erwan Bellec</strong> (hereinafter "the Publisher"). For any questions: <strong>erwan@live-peace.com</strong></p>
+      <h3>Main features</h3>
+      <ul>
+        <li>Library of educational modules (law, medicine, history, sciences, languages, economics, philosophy, computer science, literature, music, art, geography)</li>
+        <li>Personalized spaced repetition review system</li>
+        <li>Progress tracking with XP, levels and streaks</li>
+        <li>Module creation and submission by approved creators</li>
+        <li>Personal library and category-based organization</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 2</div>
+      <h2>Account creation and access</h2>
+      <h3>Account creation</h3>
+      <p>Access requires creating an account with a valid email and password. You guarantee the accuracy of the information provided.</p>
+      <h3>Security</h3>
+      <p>You are solely responsible for the confidentiality of your credentials. In case of compromise, contact the Publisher immediately at erwan@live-peace.com.</p>
+      <h3>Minimum age</h3>
+      <div class="box"><p>Use of Memorize is restricted to persons aged 13 and over. Minors must obtain consent from a parent or legal guardian.</p></div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 3</div>
+      <h2>Usage conditions and prohibited behaviors</h2>
+      <p>Memorize is provided for personal, non-commercial and educational purposes only.</p>
+      <h3>The following are strictly prohibited</h3>
+      <ul>
+        <li>Reproducing, selling or commercially exploiting any part of the service without written authorization</li>
+        <li>Attempting to decompile or access the app's source code</li>
+        <li>Using bots or automated tools to access the service</li>
+        <li>Publishing illegal, defamatory, violent or discriminatory content</li>
+        <li>Impersonating another user or the Publisher</li>
+        <li>Disrupting the service or servers</li>
+        <li>Sharing copyright-protected content without authorization</li>
+      </ul>
+      <div class="box box-warn"><p>⚠️ Any breach may result in immediate and permanent account suspension.</p></div>
+      <h3>Gamification</h3>
+      <p>The XP, levels and streaks system is purely indicative and has no monetary value. The Publisher reserves the right to modify these parameters at any time.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 4</div>
+      <h2>Creator status and module publishing</h2>
+      <h3>Becoming a creator</h3>
+      <p>Any user may request creator status from the settings. This request is subject to admin validation. The Publisher reserves the right to accept or refuse without justification.</p>
+      <h3>Publishing workflow</h3>
+      <ul>
+        <li><strong>Draft</strong> — visible only to the creator</li>
+        <li><strong>Pending</strong> — submitted, under moderation</li>
+        <li><strong>Published</strong> — validated and accessible to all users</li>
+      </ul>
+      <h3>Creator obligations</h3>
+      <p>By submitting a module, the creator guarantees that content is original or freely usable, accurate, of educational quality, and does not violate any intellectual property rights or contain false or dangerous information.</p>
+      <p>The Publisher may refuse, modify or unpublish any module not complying with these Terms.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 5</div>
+      <h2>Intellectual property</h2>
+      <h3>Publisher's property</h3>
+      <p>The app, its code, interface, design and algorithms are the exclusive property of the Publisher. Any unauthorized reproduction is prohibited.</p>
+      <h3>Creator content</h3>
+      <p>Creators retain ownership of their content. By publishing a module, they grant the Publisher a non-exclusive, worldwide, royalty-free license to host, display and promote this content within the service.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 6</div>
+      <h2>Limitation of liability</h2>
+      <div class="box box-warn"><p>⚠️ Memorize modules are supplementary educational tools. They do not replace the advice of a qualified professional, particularly in medicine, law or finance.</p></div>
+      <p>The Publisher cannot be held liable for service interruptions, loss of progress data, indirect damages, or content published by third-party creators.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 7</div>
+      <h2>Personal data</h2>
+      <p>The collection and processing of your data is governed by the <a href="confidentialite.html">Privacy Policy</a>.</p>
+      <table>
+        <tr><th>Data</th><th>Purpose</th></tr>
+        <tr><td>Email</td><td>Authentication, communication</td></tr>
+        <tr><td>Display name</td><td>Profile personalization</td></tr>
+        <tr><td>Progress, XP, streaks</td><td>Review scheduling, statistics</td></tr>
+        <tr><td>Module ratings</td><td>Content improvement</td></tr>
+        <tr><td>Preferences (language, theme)</td><td>Personalization</td></tr>
+      </table>
+      <p>Under GDPR, you have the right to access, correct, delete and export your data. Contact: erwan@live-peace.com</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 8</div>
+      <h2>Termination</h2>
+      <h3>By the user</h3>
+      <p>You may delete your account at any time by contacting erwan@live-peace.com. Deletion results in permanent loss of all progress data.</p>
+      <h3>By the Publisher</h3>
+      <p>The Publisher may suspend or delete any account in case of Terms violation, fraudulent behavior or prolonged inactivity (over 24 months).</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Article 9</div>
+      <h2>Amendments and governing law</h2>
+      <p>The Publisher reserves the right to modify these Terms at any time. Users will be notified via in-app notification. Continued use constitutes acceptance.</p>
+      <p>These Terms are governed by <strong>French law</strong>. French courts have exclusive jurisdiction. EU mediation: <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a></p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Contact</div>
+      <h2>Contact us</h2>
+      <ul>
+        <li><strong>Email:</strong> erwan@live-peace.com</li>
+        <li><strong>App:</strong> Settings → Contact us</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Erwan Belhachemi — Memorize · <a href="confidentialite.html">Privacy Policy / Politique de confidentialité</a> · <a href="mailto:erwan@live-peace.com">Contact</a></p>
+</footer>
+
+<script>
+function setLang(l){
+  document.body.classList.toggle('en',l==='en');
+  document.querySelectorAll('.lang-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelector('.lang-btn[onclick*="\''+l+'\'"]').classList.add('active');
+  document.documentElement.lang=l;
+  try{localStorage.setItem('mem-lang',l);}catch(e){}
+}
+try{const s=localStorage.getItem('mem-lang');if(s)setLang(s);}catch(e){}
+</script>
+</body>
+</html>
